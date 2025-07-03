@@ -2,7 +2,7 @@ import type {Metadata} from "next";
 import "./globals.css";
 import {BackgroundWave} from "@/components/background-wave";
 import Link from "next/link";
-import {ElevenLabsLogo, GithubLogo} from "@/components/logos";
+import {MagiLabsLogo, GithubLogo} from "@/components/logos";
 
 export const metadata: Metadata = {
     title: "ConvAI",
@@ -20,7 +20,7 @@ export default function RootLayout({children}: Readonly<{ children: React.ReactN
             >
                 <div className={"flex"}>
                     <Link href={"/"} prefetch={true}>
-                        <ElevenLabsLogo
+                        <MagiLabsLogo
                             className={"h-[15px] w-auto hover:text-gray-500"}
                         />
                     </Link>
@@ -28,7 +28,7 @@ export default function RootLayout({children}: Readonly<{ children: React.ReactN
 
                 <div className={"flex gap-4 justify-end"}>
                     <Link
-                        href="https://github.com/jonatanvm/convai-demo"
+                        href="#"
                         target="_blank"
                         rel="noopener noreferrer"
                         className={"py-0.5"}
