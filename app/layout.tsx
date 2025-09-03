@@ -34,8 +34,6 @@ export default function RootLayout({children}: Readonly<{ children: React.ReactN
                         className={"py-0.5"}
                         aria-label="View source on GitHub"
                     >
-                        <GithubLogo
-                            className={"w-5 h-5 hover:text-gray-500 text-[#24292f]"}
                         />
                     </Link>
                 </div>
