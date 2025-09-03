@@ -26,15 +26,7 @@ export default function RootLayout({children}: Readonly<{ children: React.ReactN
                 </div>
 
                 <div className={"flex gap-4 justify-end"}>
-                    <Link
-                        href="#"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className={"py-0.5"}
-                        aria-label="View source on GitHub"
-                    >
-                        />
-                    </Link>
+
                 </div>
             </nav>
             {children}
