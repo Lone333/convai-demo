@@ -2,7 +2,6 @@ import type {Metadata} from "next";
 import "./globals.css";
 import {BackgroundWave} from "@/components/background-wave";
 import Link from "next/link";
-import {MagiLabsLogo, GithubLogo} from "@/components/logos";
 
 export const metadata: Metadata = {
     title: "ConvAI",
